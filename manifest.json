@@ -8,5 +8,6 @@
       "scripts": ["background.js"]
     }
   },
+  "permissions":["usb"],
   "icons": { "16": "workarea.png", "128": "workarea.png" }
 }
