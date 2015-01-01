@@ -3,6 +3,7 @@ chrome.app.runtime.onLaunched.addListener(function() {
     'bounds': {  
       'width': 400,
       'height': 500
-    }
+    },
+    id: "Arm-Controller"
   });
 });   

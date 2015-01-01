@@ -8,6 +8,7 @@
       "scripts": ["background.js"]
     }
   },
-  "permissions":["usb"],
+  "permissions": ["usb"],
+  "optional_permissions": [ {"usbDevices": [{"vendorId": 1267, "productId": 127},{"vendorId": 4711, "productId": 0}]}],  
   "icons": { "16": "workarea.png", "128": "workarea.png" }
 }
